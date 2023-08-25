@@ -1,0 +1,51 @@
+.body{
+  margin: 0;
+}
+
+.button-container { 
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding-left: 20px;
+
+
+}
+.foreground-container {
+  position: relative; 
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+ 
+}
+.rover-page {
+  background-image: url('https://images8.alphacoders.com/374/374852.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+
+}
+
+.rover-page h1, 
+.roger-page p {
+  color: rgba(128, 128, 128, 0.961);
+ 
+}
+
+.photo-container{
+  margin-top: 20px;
+
+}
+
+
+.photo-img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px
+}

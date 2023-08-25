@@ -1,0 +1,36 @@
+
+.header {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
+    background-color: black; 
+  }
+  
+  .header button {
+    margin: 5px;
+  }
+
+  .main {
+    margin: 0;
+    padding: 0;
+  }
+  
+button {
+    padding: 10px 20px; 
+    font-size: 18px; 
+    border: none;
+    border-radius: 10px; 
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; 
+  }
+  
+  button:hover {
+    background-color: maroon; 
+    transform: scale(1.08); 
+  }
+  

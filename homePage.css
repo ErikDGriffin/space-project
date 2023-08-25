@@ -1,0 +1,52 @@
+/* homePage.css */
+.home-page {
+    background-image: url('https://wallpapers.com/images/hd/cool-4k-ultra-hd-bq4yacgblo8gdm3i.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Set the height to cover the viewport */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: x-large;
+    color: white; /* Adjust text color for visibility */
+    overflow: hidden;
+  }
+  @keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    70%{
+        transform: translateY(10%);
+        opacity: 1;
+    }
+
+    50% {
+        transform: translateY(0);
+        opacity: 1;
+    } 
+  }
+  .animated-text{
+    animation: slideInFromTop 5s ease-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in-text {
+  position: absolute;
+  bottom: 0;
+  left: 50%; /* Center the text horizontally */
+  transform: translateX(-50%); /* Adjust for horizontal centering */
+  padding: 20px;
+animation: fadeIn 1.5s ease-in-out; /* Adjust the duration and easing as needed */
+  }
+  

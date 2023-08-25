@@ -1,0 +1,60 @@
+
+.fade-in {
+    opacity: 1;
+    transition: opacity 2s ease-in-out; 
+  }
+  
+  .fade-out {
+    opacity: 0;
+    pointer-events: none; 
+  }
+
+  .center-date-input {
+  text-align: center;
+  margin-top: 40px;
+  padding: 30px;
+  }
+  
+  .apod-heading {
+    color: whitesmoke;
+  }
+
+  h2 {
+    text-align: center;
+    color: whitesmoke
+  }
+
+  .image-title {
+    color: whitesmoke; 
+  }
+  
+
+.static-background {
+    background-image: url('https://cdn.wallpapersafari.com/47/29/gWrmcu.jpg');
+    background-size: full;
+    background-position: center;
+    background-attachment: fixed;
+    
+  }
+  
+  label {
+    color: whitesmoke
+
+  }
+
+  .center-image{
+    display: block;
+    margin: 0 auto;
+    color: whitesmoke;
+    border-radius: 15px;
+
+  }
+
+  .image-text{
+    color: whitesmoke;
+  }
+
+  .navigation-button{ 
+    margin: 0 10px;
+  }
+  
